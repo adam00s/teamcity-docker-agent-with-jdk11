@@ -8,12 +8,15 @@ It needs image crated by https://github.com/adam00s/teamcity-docker-agent-jdk10 
 ## build script on linux
 
 ```
+# get fresh files
 rm -rf teamcity-docker-agent-with-jdk1x
 git clone https://github.com/adam00s/teamcity-docker-agent-with-jdk1x.git
 
+# go to docker build folder
 cd teamcity-docker-agent-with-jdk1x
-chmod +x build.sh
 
+# run docker build
+chmod +x build.sh
 ./build.sh
 ```
 

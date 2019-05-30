@@ -14,7 +14,7 @@ RUN curl -LSo /tmp/openjdk-11.tar.gz ${BINARY_11_URL} && \
     mkdir -p /usr/lib/jvm/jdk-11 && \
     cd /usr/lib/jvm/jdk-11 && \
     tar -xf /tmp/openjdk-11.tar.gz --strip-components=1 && \
-    rm -rf /tmp/openjdk-11.tar.gz $$ \
+    rm -rf /tmp/openjdk-11.tar.gz && \
     curl -LSo /tmp/openjdk-12.tar.gz ${BINARY_12_URL} && \
     mkdir -p /usr/lib/jvm/jdk-12 && \
     cd /usr/lib/jvm/jdk-12 && \

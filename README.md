@@ -1,6 +1,6 @@
 ## Motivation
 
-Standard teamcity-docker-agent is running on jdk1.8 and higher jdk can not be simply added to image becouse of conflict 
+Standard teamcity-docker-agent (https://github.com/JetBrains/teamcity-docker-agent) is running on jdk1.8 and higher jdk can not be simply added to image becouse of conflict 
 of options in JAVA_TOOL_OPTIONS.
 
 It needs image crated by https://github.com/adam00s/teamcity-docker-agent-jdk10 in local docker.

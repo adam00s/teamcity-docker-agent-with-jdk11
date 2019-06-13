@@ -1,4 +1,4 @@
-FROM teamcity-minimal-agent-jdk10:latest
+FROM teamcity-docker-agent-jdk10:latest
 
 # look into for current version of AdoptOpenJDK 11
 # https://github.com/AdoptOpenJDK/openjdk-docker/blob/master/11/jdk/ubuntu/Dockerfile.hotspot.releases.full
